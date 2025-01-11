@@ -1,0 +1,515 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+* {
+    box-sizing: border-box;
+}
+/* Navigation Bar */
+header {
+    background-color: #009688;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #009688;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/bg.jpeg'); /* Replace with a real image */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Popular Destinations Section */
+.destinations {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.destinations h2 {
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.destination-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+}
+
+.destination-card img {
+    width: 100%;
+    height: auto;
+}
+
+.destination-card h3 {
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    background: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.why-choose-us h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info-blocks {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-block {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-block img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 20px;
+}
+
+.testimonial-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    width: 280px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Form */
+.contact {
+    padding: 50px 20px;
+}
+.contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact input, .contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.contact button {
+    padding: 10px;
+    background-color: #009688;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.contact button:hover {
+    background-color: #00796b;
+}
+.page-heading {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+.page-heading h1 {
+    font-size: 36px;
+    margin: 0;
+}
+.page-heading p {
+    font-size: 18px;
+    margin: 10px 0 0;
+    color: #666;
+}
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Team Section */
+.team {
+    background: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.team h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    margin: 10px 0;
+}
+
+.team-member p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Mission & Vision Section */
+.mission-vision {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.mission-vision h2 {
+    margin-bottom: 20px;
+}
+
+.mission-vision-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.mission, .vision {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background: #fff;
+    padding: 50px 20px;
+}
+
+.testimonials h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonial-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    width: 280px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 50px 20px;
+}
+
+.gallery h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-grid img {
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+/* Why Choose Us Section */
+.why-choose-us {
+    padding: 50px 20px;
+    background: #f9f9f9;
+}
+.why-choose-us h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.block {
+    background: white;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.block i {
+    font-size: 40px;
+    color: #009688;
+    margin-bottom: 15px;
+}
+.block h3 {
+    font-size: 22px;
+    color: #333;
+    margin: 15px 0;
+}
+.block p {
+    font-size: 16px;
+    color: #666;
+}
+/* Page Heading */
+.page-heading {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+.page-heading h1 {
+    font-size: 36px;
+    margin: 0;
+}
+.page-heading p {
+    font-size: 18px;
+    margin: 10px 0 0;
+    color: #666;
+}
+/* Destinations Section */
+.destinations {
+    padding: 50px 20px;
+    background: #f9f9f9;
+}
+.destinations h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.block {
+    background: white;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.block img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.block h3 {
+    font-size: 22px;
+    color: #333;
+    margin: 15px 0;
+}
+.block p {
+    font-size: 16px;
+    color: #666;
+    padding: 0 10px 20px;
+}
+.contact {
+    padding: 50px 20px;
+    background: #f9f9f9;
+}
+.contact h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contact-info {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contact-info p {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+}
+/* Google Map Section */
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 40px;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+/* Contact Form Section */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.contact-form button {
+    padding: 15px;
+    background-color: #009688;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #00796b;
+}
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+}

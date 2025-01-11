@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Advisory</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <div class="logo">Trip Advisory</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="why-choose-us.html">Why Choose Us</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <h1>Explore the World</h1>
+        <p>Your ultimate guide to the best destinations.</p>
+    </section>
+    
+    <!-- Popular Destinations Section -->
+    <section id="destinations" class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="grid">
+            <div class="destination-card">
+                <img src="images/france.jpeg" alt="Destination 1">
+                <h3>Paris, France</h3>
+            </div>
+            <div class="destination-card">
+                <img src="images/indonesia.jpeg" alt="Destination 2">
+                <h3>Bali, Indonesia</h3>
+            </div>
+            <div class="destination-card">
+                <img src="images/japan.jpeg" alt="Destination 3">
+                <h3>Kyoto, Japan</h3>
+            </div>
+            <div class="destination-card">
+                <img src="images/usa.jpeg" alt="Destination 4">
+                <h3>New York, USA</h3>
+            </div>
+            <div class="destination-card">
+                <img src="images/italy.jpeg" alt="Destination 5">
+                <h3>Rome, Italy</h3>
+            </div>
+            <div class="destination-card">
+                <img src="images/australia.jpeg" alt="Destination 6">
+                <h3>Sydney, Australia</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose-us" class="why-choose-us">
+        <h2>Why Choose Us?</h2>
+        <div class="info-blocks">
+            <div class="info-block">
+                <img src="images/guidance.jpeg" alt="Expert Guidance">
+                <h3>Expert Guidance</h3>
+                <p>Our team of travel experts is dedicated to providing you with the best recommendations and insights.</p>
+            </div>
+            <div class="info-block">
+                <img src="images/itineraries.jpeg" alt="Personalized Itineraries">
+                <h3>Personalized Itineraries</h3>
+                <p>We create custom travel plans tailored to your preferences and budget.</p>
+            </div>
+            <div class="info-block">
+                <img src="images/support.jpeg" alt="24/7 Support">
+                <h3>24/7 Support</h3>
+                <p>Our support team is available around the clock to assist you with any inquiries.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial">
+                <p>"Trip Advisory made my vacation unforgettable! The recommendations were spot on!"</p>
+                <h4>- Lisa Wong</h4>
+            </div>
+            <div class="testimonial">
+                <p>"I love how easy it is to plan my trips with their tips and guides."</p>
+                <h4>- John Doe</h4>
+            </div>
+            <div class="testimonial">
+                <p>"The team is incredibly helpful and knowledgeable. Highly recommended!"</p>
+                <h4>- Anna Smith</h4>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="4" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Trip Advisory. All rights reserved.
+    </footer>
+    
+    <!-- JavaScript -->
+    <script>
+        // Form submission handler
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for reaching out! We will get back to you soon.');
+        });
+    </script>
+</body>
+</html>
